@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int t = input.nextInt();
-        while(t > 0) {
+        while(--t > 0) {
             System.out.println(getUtopianTreeHeight(input.nextInt()));
         }
     }
